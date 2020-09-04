@@ -7,100 +7,131 @@
         <meta name="author" content="Hocast">
         <meta name="description" content="">
         <meta name="keyword" content="">
-        <link rel="stylesheet" href="https://fonts.google.com/specimen/Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" type="text/css" href="css/queries.css">
         <title>Fylo-landing page</title>
     </head>
     <body>
-        <header>
-            <img src="image/logo.svg" class="">
-            <div class="">
-                <ul class="">
-                    <li <a href="#">Features</a></li>
-                    <li <a href="#">Term</a></li>
-                    <li <a href="#">Sign In</a></li>
-                </ul>
-            </div>
-        </header>
-        <section class="">
-            <div class="">
-                <div class="">
-                  <h1 class="">All your files in one secured<br> location, acceessible any where.</h1>
-                  <p class="">  Fylo stuffs your most important files in one trusted location, Access <br>them when every you need, share and collaborate with friend, family,<br> and co-workers.</p>
-                </div>
-                <div class="">
-                    <input type="text" placeholder="Enter your email..." name="psw" required>
-                    <button type="submit">Get Started</button>
-                </div>
-                <div class="wrap-img">
-                    <img src="image/illustration-1.svg" class="img-grow">
-               </div>
-            </div> 
-        </section>
-        <section>
-            <div class="">
-                <div class="">
-                    <h2 class="">Stay productiive, Wherever you are</h2>
-                    <p class="">Never let location be an issue when accessing your files. Fylo has you <br>covered for all of your files storage needs. </p>
-                    <p class="">Securely share files and folders with your friends, family and colleagues for<br> live collaboration. No email attachments required </p>
-                    <a href="#">See how Fylo works</a><img src="image/icon-arrow.svg" class="">
-                </div>
-                <div class="">
-                    <img src="image/icon-quotes.svg" class="">
-                    <p class="">Fylo has improved our team productivity by<br>an order of magnitude. Since making the <br> swtich our team has become a well-oiled <br>collaboration machine.</p>
-                    <div class="imgcontainer">
+        <div class="container">
+            <header>
+                <img src="image/logo.svg" class="logo">
+
+                <nav>
+                    <ul class="header-links">
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Sign In</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section class="hero-wrapper">
+                <div class="first-content">
+                    <div class="wrap-content">
+                       <h1 class="wrap-title">All your files in one secure location, acceessible any where.</h1>
+                       <p class="wrap-desc">  Fylo stuffs your most important files in one trusted location, Access <br>them when every you need, share and collaborate with friend, family,<br> and co-workers.</p>
+
+                       <input type="text" placeholder="Enter your email..." name="psw" required>
+                        <button type="submit" class="wrap-btn">Get Started</button>
                     </div>
-                    <div class="">
-                        <img src="image/avatar-testimonial.jpg"  alt="Avatar" class="avatar">
-                        <div class="">
-                            <h3 class="">Kyle Burton</h3>
-                            <p class="">Founder & CEO Huddle</p>
+                    <div class="wrap-img">
+                        <img src="image/illustration-1.svg" class="img-grow">
+                    </div>
+                </div> 
+            </section>
+            <section class="second-section">
+                <div>
+                    <img src="image/bg-curve-desktop.svg" alt="curve image" class="bg-img">
+                </div>
+                    <div class="second-content">
+                        <div class="wrap-content-2">
+                            <h2 class="wrap-title-2">Stay productiive, Wherever you are</h2>
+                            <p class="wrap-desc-2">Never let location be an issue when accessing your files. Fylo has you covered for all of your files storage needs. </p>
+                            <p class="wrap-desc-2">Securely share files and folders with your friends, family and colleagues for live collaboration. No email attachments required! </p>
+                            <br>
+                            <a href="#" class="wrap-link">See how Fylo works<img src="image/icon-arrow.svg" class="wrap-icon"></a>
+                            <hr class="link-line">
+                        
+                            <div class="_testimonial">
+                                <img src="image/icon-quotes.svg" class="icon-quote">
+                                <p class="text-quote">Fylo has improved our team productivity by<br> an order of magnitude. Since making the<br> swtich our team has become a well-oiled<br> collaboration machine.</p>
+                                <div class="inner-box">
+                                    <div class="avatar-img">
+                                        <img src="image/avatar-testimonial.jpg"  alt="Avatar" class="avatar">
+                                    </div>
+                                    <div class="avatar-desc">
+                                        <h3 class="avatar-name">Kyle Burton</h3>
+                                        
+                                    </div>
+                                    
+                                </div>
+                                <p class="avatar-title">Founder & CEO Huddle</p>
+                            </div>
+                        </div>
+
+                        <div class="wrap-img-2">
+                            <img src="image/illustration-2.svg" class="img-grow-2">
+                            
+                        </div> 
+                    </div>
+                   
+            </section>
+            <section class="last-section">
+                <div class="last-content">
+                    <div class="last-box">
+                        <h1 class="last-title">Get early access today</h1>
+                        <p class="last-desc">It only takes a minute to sign up and our free starter tier is <br>extremely generous. If you have any question our support team <br>will be happy to help you.</p>
+                    </div>
+                    <div class="last-wrapper">
+                        <input type="text" class="input-text" placeholder="email@example.com" name="psw" required><br>
+                        <button type="submit" class="last-btn">Get Started For Free</button>
+                    </div>
+                </div> 
+            </section>
+            <footer>
+                <div class="_footer">
+                    <div class="_company-info">
+                        <img src="image/logo-footer.svg" class="footer-logo">
+                        <div class="_address">
+                            <div class="icon-span">
+                                <span><img src="image/icon-phone.svg" class="address-icon"></span>
+                                <br>
+                                <span><img src="image/icon-email.svg" class="address-icon"></span>
+                            </div>
+                            <div class="address-span">
+                                <p class="address-para">Phone: +1-543-123-4567</p>
+                                <p class="address-para">example@fylo.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="links">
+                        <ul class="footer-links">
+                            <li>About Us</li>
+                            <li>Jobs</li>
+                            <li>Press</li>
+                            <li>Blog</li>
+                        </ul>
+                    </div>
+                    <div class="links">
+                        <ul class="footer-links">
+                            <li>Contact Us</li>
+                            <li>Terms</li>
+                            <li>Privacy</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="social-links">
+                            <ul class="social-media-links">
+                                <li><ion-icon name="logo-facebook"></ion-icon></li>
+                                <li><ion-icon name="logo-twitter"></ion-icon></li>
+                                <li><ion-icon name="logo-instagram"></ion-icon></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <div>
-                  <img src="image/illustration-2.svg" class=""
-                </div> 
-                
-            </div>
-        </section>
-        <section class="">
-            <div class="">
-                <div class="">
-                  <h1 class="">Get early access today</h1>
-                  <p class="">It only takes a minute to sign up and our free starter tier is <br>extremely generous. IF you have any question our support team <br>will be happy to help you.</p>
-                </div>
-                <div class="">
-                    <input type="text" placeholder="email@example.com" name="psw" required><br>
-                    <button type="submit">Get Started For Free</button>
-                </div>
-            </div> 
-        </section>
-        <footer>
-            <div class="">
-                <div>
-                    <img src="image/logo.svg" class="footer-img">
-                    <div class="">
-                        <p><span><img src="image/icon-phone.svg"></span>Phone: +1245676543</p>
-                        <p><span><img src="image/icon-email.svg"></span>example@fylo.com</p>
-                    </div>
-                <div>
-                    <ul class="footer-link">
-                        <li class="footer-links">About Us</li>
-                        <li class="footer-links">Jobs</li>
-                        <li class="footer-links">Press</li>
-                        <li class="footer-links">Blog</li>
-                    </ul>
-                </div>
-                <div>
-                    <ul class="footer-link">
-                        <li class="footer-links">Contact Us</li>
-                        <li class="footer-links">Terms</li>
-                        <li class="footer-links">Privacy</li>
-                    </ul>
-                </div>
-            </div>
-        </footer>
+            </footer>
+        </div>
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
     </body>
 </html>
